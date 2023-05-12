@@ -21,4 +21,4 @@ scrape_configs:
     # Override the global default and scrape targets from this job every minute.
     scrape_interval: 60s
     static_configs:
-      - targets: [ 'apache' ]
+      - targets: [ 'https://cms.vlaio-dev.district01.be/metrics' ]
